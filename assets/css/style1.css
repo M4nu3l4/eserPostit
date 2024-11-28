@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Bree", Serif;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    position: relative;
+
+}
+
+section div {
+    background-color: white;
+    color: #333;
+    border: 2px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+    position: relative;
+}
+
+#tre {
+    color: #6b969d;
+    overflow: hidden;
+    top: -20px;
+    color: transparent;
+    animation-name: testo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+
+
+
+}
+
+#due {
+
+    color: #6b969d;
+    overflow: hidden;
+    top: -20px;
+    color: transparent;
+    animation-name: testo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+#uno {
+
+    color: #6b969d;
+    overflow: hidden;
+    top: -20px;
+    color: transparent;
+    animation-name: testo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+}
+
+@keyframes testo {
+    from {
+        color: transparent;
+        top: -20px;
+    }
+
+    15% {
+        color: #6b969d;
+        top: -20px;
+
+    }
+
+    50% {
+        color: transparent;
+        top: -20px;
+    }
+}
