@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-weight: 300;
+    font-size: 20px;
 }
 
 html,
@@ -16,11 +17,22 @@ section {
     flex-direction: row;
     justify-content: center;
     align-content: flex-start;
-    position: relative;
+    align-items: center;
 
 }
 
-section div {
+p {
+    display: inline;
+    width: 80%;
+
+}
+
+p span {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+div {
     background-color: white;
     color: #333;
     border: 2px solid black;
